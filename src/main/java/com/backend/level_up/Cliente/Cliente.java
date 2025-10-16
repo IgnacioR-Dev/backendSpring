@@ -31,7 +31,7 @@ public class Cliente {
 
     @Column
     @JsonProperty("id_comuna")
-    private String id_comuna; // futura FK a otra tabla, por el momento se definió como String para prueba en la comunicacion con la BD.
+    private String id_comuna; // Esta es la futura FK a otra tabla, por el momento se definió como String para prueba en la comunicacion con la BD.
 
     @Column
     @JsonProperty("fecha_nacimiento")
